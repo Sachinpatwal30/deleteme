@@ -1,0 +1,12 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js && pm2 logs all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
